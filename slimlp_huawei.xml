@@ -6,20 +6,18 @@
      <project path="kernel/huawei/huawei-kernel-3.4" name="SlimLP-U8950/chil360-kernel" remote="github" revision="lp5.1"/>
      <project path="device/huawei/msm7x27a-common" name="SlimLP-U8950/android_device_huawei_msm7x27a-common" remote="github" revision="lp5.1"/>
      <project path="device/huawei/u8950" name="SlimLP-U8950/android_device_huawei_u8950" remote="github" revision="slimlp5.1"/>
-
-     <!-- Camera -->
-     <remove-project name="platform/packages/apps/Camera" />
-     <project path="packages/apps/Camera" name="SlimRoms/packages_apps_Camera" remote="github" revision="kk4.4" />
-     <remove-project name="SlimRoms/packages_apps_Camera2" />
-     <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="kk4.4" />
-     
      <!-- GPS -->
      <remove-project name="SlimRoms/hardware_qcom_gps" />
      <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-11.0" />
+
+     <!-- Trebuchet -->
+     <remove-project name="SlimRoms/packages_apps_SlimLauncher" />
+     <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="cm-12.1" />
 
      <!-- QCOM Hardware -->
      <project path="hardware/qcom/display-caf/msm7x27a" name="SlimLP-Y300/android_hardware_qcom_display-caf" remote="github" revision="lp5.1" />
      <project path="hardware/qcom/media-caf/msm7x27a" name="SlimLP-Y300/hardware_qcom_media" remote="github" revision="lp5.1" />
 </manifest>
+
 
  
