@@ -22,11 +22,7 @@ Build Instructions
 
         sh device/huawei/msm7x27a-common/patches/apply.sh
 
-5. Initialize the build environment
-
-        source build/envsetup.sh
-    
-6. Build the ROM
+5. Build the ROM
 
         brunch u8950
 
