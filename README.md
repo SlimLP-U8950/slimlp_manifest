@@ -12,7 +12,7 @@ Build Instructions
 
 2. Add my local manifest
 
-        curl --create-dirs -L -o .repo/local_manifests/slimlp_huawei.xml -O -L https://raw.github.com/SlimLP-U8950/local_manifest/lp5.1/slimlp_huawei.xml
+        curl --create-dirs -L -o .repo/local_manifests/slimlp_huawei.xml -O -L https://raw.github.com/SlimLP-U8950/slimlp_manifest/lp5.1/slimlp_huawei.xml
 
 3. Then sync up the repositories
  
