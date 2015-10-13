@@ -1,4 +1,4 @@
-cm13_manifest
+cm13.0_manifest
 ================
 
 Local Manifest to build CM13 for the Huawei U8950 (Honor Pro)
