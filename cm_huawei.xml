@@ -7,6 +7,9 @@
 	<project path="device/huawei/msm7x27a-common" name="U8950-Projects/android_device_huawei_msm7x27a-common" remote="github" revision="m-6.0"/>
 	<project path="device/huawei/u8950" name="U8950-Projects/android_device_huawei_u8950" remote="github" revision="cm-13.0"/>
 	<!--project path="prebuilts/chromium" name="U8950-Projects/prebuilts_chromium" remote="github" revision="cm-13.0"/-->
+	
+	<!-- Linaro toolchain -->
+	<project path="prebuilt/linux-x86/toolchain" name="U8950-Projects/linaro-toolchains" remote="github" revision="master"/>
 
 	<!-- QCOM Hardware -->
 	<project path="hardware/qcom/display-caf/msm7x27a" name="U8950-Projects/android_hardware_qcom_display-caf" remote="github" revision="lp5.1" />
