@@ -9,13 +9,16 @@
 	<project path="packages/apps/SlimLPUpdater" name="U8950-Projects/SlimLPUpdater" remote="github" revision="master"/>
 	<project path="prebuilts/chromium" name="U8950-Projects/prebuilts_chromium" remote="github" revision="slimlp"/>
 
-	<!-- GPS -->
-	<remove-project name="SlimRoms/hardware_qcom_gps" />
-	<project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-11.0" />
+     <!-- GPS -->
+     <remove-project name="SlimRoms/hardware_qcom_gps" />
+     <project path="hardware/qcom/gps" name="chil360/android_hardware_qcom_gps" remote="github" revision="kitkat" />
 
-	<!-- QCOM Hardware -->
-	<project path="hardware/qcom/display-caf/msm7x27a" name="U8950-Projects/android_hardware_qcom_display-caf" remote="github" revision="lp5.1" />
-	<project path="hardware/qcom/media-caf/msm7x27a" name="U8950-Projects/hardware_qcom_media" remote="github" revision="lp5.1" />
+     <!-- QCOM Hardware -->
+     <project path="hardware/qcom/display-caf/msm7x27a" name="SlimLP-Y300/android_hardware_qcom_display-caf" remote="github" revision="lp5.0" />
+     <project path="hardware/qcom/media-caf/msm7x27a" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.0" />
+
+     <!-- Eleven -->
+     <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="github" revision="cm-12.0" />
 </manifest>
 
 
