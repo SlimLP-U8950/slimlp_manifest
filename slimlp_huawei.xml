@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
-
+    <remote name="bucket" fetch="https://bitbucket.org" revision="master" />
+        
 	<!-- Device Folders, Kernel & Proprietary BLOBS -->
 	<project path="vendor/huawei" name="U8950-Projects/proprietary_vendor_huawei" remote="github" revision="master"/>
 	<project path="kernel/huawei/huawei-kernel-3.4" name="CM13-U8950/chil360-kernel" remote="github" revision="mm6.0"/>
@@ -16,6 +17,11 @@
 	<!-- QCOM Hardware -->
 	<project path="hardware/qcom/display-caf/msm7x27a" name="U8950-Projects/android_hardware_qcom_display-caf" remote="github" revision="lp5.1" />
 	<project path="hardware/qcom/media-caf/msm7x27a" name="U8950-Projects/hardware_qcom_media" remote="github" revision="lp5.1" />
+	
+	<!-- UBERTC 4.9 kernel toolchain -->
+        <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bucket"/>
+        
 </manifest>
 
 
