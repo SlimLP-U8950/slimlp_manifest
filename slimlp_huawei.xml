@@ -15,8 +15,8 @@
 	<project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-11.0" />
 	<remove-project name="SlimRoms/packages_apps_Camera2" />
 	<!-- QCOM Hardware -->
-	<project path="hardware/qcom/display-caf/msm7x27a" name="U8950-Projects/android_hardware_qcom_display-caf" remote="github" revision="lp5.1" />
-	<project path="hardware/qcom/media-caf/msm7x27a" name="U8950-Projects/hardware_qcom_media" remote="github" revision="lp5.1" />
+	<project path="hardware/qcom/display-caf/msm7x27a" name="U8950-Projects/android_hardware_qcom_display" remote="github" revision="cm-12.1-caf-7x30" />
+	<project path="hardware/qcom/media-caf/msm7x27a" name="U8950-Projects/android_hardware_qcom_media" remote="github" revision="cm-12.1-caf-7x30" />
 	
 	<!-- UBERTC 4.9 kernel toolchain -->
         <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
